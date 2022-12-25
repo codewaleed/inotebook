@@ -8,7 +8,7 @@ const { body, validationResult } = require("express-validator");
 
 const JWT_SECRET = 'mynameiskhanbitch1'
 
-
+//done
 //mongodb+srv://wali2:wali2@cluster0.boucay5.mongodb.net/test
 
 //create a user using POST: /api/auth/createuser "no login required"
