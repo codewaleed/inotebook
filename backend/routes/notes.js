@@ -75,7 +75,7 @@ router.put(
     }
 
     //find note to be updated
-    let note = Note.findById(req.params.id);
+    let note = await Note.findById(req.params.id);
     if (!note) {
       res.status(404).send("Not Found");
     }
