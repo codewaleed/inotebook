@@ -3,18 +3,21 @@ import { Navbar } from "./components/Navbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./components/Home";
 import { About } from "./components/About";
+import NoteState from "./context/notes/NoteState";
 
 function App() {
   return (
     <div>
-      <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
+      <NoteState>
+        <BrowserRouter>
+          <Navbar />
+          <Routes>
+            <Route path="/Home" element={<Home />} />
 
-          <Route path="About" element={<About />} />
-        </Routes>
-      </BrowserRouter>
+            <Route path="About" element={<About />} />
+          </Routes>
+        </BrowserRouter>
+      </NoteState>
     </div>
   );
 }
