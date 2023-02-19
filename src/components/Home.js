@@ -2,7 +2,7 @@ import { Notes } from "./Notes";
 export const Home = () => {
   return (
     <div className="container my-3">
-      <form >
+      <form>
         <div className="form-group container">
           <label htmlFor="exampleInputEmail1">Email address</label>
           <input

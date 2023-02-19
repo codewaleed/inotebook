@@ -4,7 +4,7 @@ import { useState } from "react";
 const NoteState = (props) => {
   const note = [
     {
-      _id: "63e9c4de46713b6aee9243c7",
+      _id: "63e9c4de46713b62aee9243c7",
       user: "63c00cefba76affa0eb35450",
       title: "myTitle",
       description: "dani wani shani",
@@ -12,7 +12,7 @@ const NoteState = (props) => {
       __v: 0,
     },
     {
-      _id: "63eb90647e53925655e298f5",
+      _id: "63eb90647e53925545655e298f5",
       user: "63c00cefba76affa0eb35450",
       title: "23myTitle",
       description: "Done dani wani shani",
@@ -20,7 +20,7 @@ const NoteState = (props) => {
       __v: 0,
     },
     {
-      _id: "63eb90647e53925655e298f5",
+      _id: "63eb90647e5392435655e298f5",
       user: "63c00cefba76affa0eb35450",
       title: "43myTitle",
       description: "Done dani wani shani",
@@ -28,7 +28,7 @@ const NoteState = (props) => {
       __v: 0,
     },
     {
-      _id: "63eb90647e53925655e298f5",
+      _id: "63eb90647e539235655e298f5",
       user: "63c00cefba76affa0eb35450",
       title: "13myTitle",
       description: "Done dani wani shani",
@@ -36,7 +36,7 @@ const NoteState = (props) => {
       __v: 0,
     },
     {
-      _id: "63eb90647e53925655e298f5",
+      _id: "63eb90647e539225655e298f5",
       user: "63c00cefba76affa0eb35450",
       title: "23myTitle",
       description: "Done dani wani shani",
