@@ -19,8 +19,32 @@ const NoteState = (props) => {
       tag: "general",
       __v: 0,
     },
+    {
+      _id: "63eb90647e53925655e298f5",
+      user: "63c00cefba76affa0eb35450",
+      title: "43myTitle",
+      description: "Done dani wani shani",
+      tag: "general",
+      __v: 0,
+    },
+    {
+      _id: "63eb90647e53925655e298f5",
+      user: "63c00cefba76affa0eb35450",
+      title: "13myTitle",
+      description: "Done dani wani shani",
+      tag: "general",
+      __v: 0,
+    },
+    {
+      _id: "63eb90647e53925655e298f5",
+      user: "63c00cefba76affa0eb35450",
+      title: "23myTitle",
+      description: "Done dani wani shani",
+      tag: "general",
+      __v: 0,
+    },
   ];
-  const [notes, setNotes] = useState(note)
+  const [notes, setNotes] = useState(note);
 
   // const s1 = {
   //   name: "harry",

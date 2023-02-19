@@ -1,8 +1,8 @@
 import { Notes } from "./Notes";
 export const Home = () => {
   return (
-    <div>
-      <form className="container my-3">
+    <div className="container my-3">
+      <form >
         <div className="form-group container">
           <label htmlFor="exampleInputEmail1">Email address</label>
           <input
